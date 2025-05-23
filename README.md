@@ -28,7 +28,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
     docker-compose up -d --builder
   
 - Abrir o Swagger e enviar uma mensagem:
-    http://localhost:8080/swagger-ui/index.html#/producer-controller/send
+    http://localhost:8080/swagger-ui/index.html#
   
 - Acessar o MongoDB e pesquisa o retorno do consumidor:
     docker exec -it mondodb mongosh
