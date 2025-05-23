@@ -8,12 +8,14 @@ import com.gomes.rabbitmqproducer.infrastructure.messaging.rabbitmq.RabbitMQConf
 @Service
 public class ProducerService {
     
+    // Cria o template do RabbitMQ
     private final RabbitTemplate rabbitTemplate;
 
     public ProducerService(RabbitTemplate rabbitTemplate) {
         this.rabbitTemplate = rabbitTemplate;
     }
 
+    // Converte e envia a mensagem para o RabbitMQ
     public void send(String menssage) {
         rabbitTemplate.convertAndSend(
             RabbitMQConfig.EXCHANGE,

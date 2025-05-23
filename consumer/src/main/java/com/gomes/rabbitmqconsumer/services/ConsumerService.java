@@ -11,9 +11,11 @@ import com.gomes.rabbitmqconsumer.repository.MessageRepository;
 @Service
 public class ConsumerService {
 
+    // Injeta a dependencia da classe repository
     @Autowired
     private MessageRepository messageRepository;
     
+    // Escuta as mensagens no RabbitMQ e salva no MongoDB
     @RabbitListener(queues = RabbitMQConfig.QUEUE)
     public void received(String messageText) {
         MessageModel message = new MessageModel();

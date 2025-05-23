@@ -3,6 +3,7 @@ package com.gomes.rabbitmqconsumer.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+// Qual a coleção que serão salvos os dados
 @Document(collection = "messages")
 public class MessageModel {
     
