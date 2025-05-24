@@ -44,6 +44,9 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 
 OBS.: Precisa ser criado a (queue) lista, exchange e o binding no RabbitMQ.
+    QUEUE = "myQueue";
+    EXCHANGE = "myExchange";
+    ROUTING_KEY = "myQueue.rounting.key";
 
 ## Imagens
 
