@@ -26,6 +26,9 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
   
 - Executar o Docker-Compose:
     docker-compose up -d --builder
+  OBS.: Caso ocorrá algum erro na excução do docker-compose entre na pasta do PRODUCER e gere o pacote:
+    mvn clean package
+  Faça o mesmo com o CONSUMER caso precise.
   
 - Abrir o Swagger e enviar uma mensagem:
     http://localhost:8080/swagger-ui/index.html#
