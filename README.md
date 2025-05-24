@@ -42,6 +42,9 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - Pesquisar as mensagens inseridas:
     db.messages.find()
 
+
+OBS.: Precisa ser criado a (queue) lista, exchange e o binding no RabbitMQ.
+
 ## Imagens
 
 - Envio de mensagem utilizando o Swagger
