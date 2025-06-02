@@ -25,7 +25,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - Instalar o Docker;
   
 - Executar o Docker-Compose:
-    docker-compose up -d --build
+    docker-compose up -d --build           
   OBS.: Caso ocorrá algum erro na excução do docker-compose entre na pasta do PRODUCER e gere o pacote:
     mvn clean package
   Faça o mesmo com o CONSUMER caso precise.
